@@ -323,6 +323,7 @@ class Life_Client_Core
 		class copInteractionMenu {};
 		class sirenLights {};
 		class licenseCheck {};
+		class removeWeaponAction {};
 		class licensesRead {};
 		class repairDoor {};
 		class doorAnimate {};
