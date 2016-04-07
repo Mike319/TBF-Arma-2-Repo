@@ -1,0 +1,248 @@
+#include "infiSTAR_AdminMenu.hpp"
+
+author = "Tonic";
+onLoadName = "Altis Life RPG v4.0";
+onLoadMission = "A RPG game mode developed by Tonic - Edited by Rory Flannigan";
+loadScreen = "Title.jpg";
+joinUnassigned = 1;
+respawn = BASE;
+respawndelay = 5;
+disabledAI = true;
+disableChannels[]={0,1,2};
+enableDebugConsole = 1;
+respawnDialog = 0;
+
+class Header
+{
+	gameType = RPG;
+	minPlayers = 1;
+	maxPlayers = 102;
+};
+
+wreckLimit = 3;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 320;
+corpseLimit = 150;
+corpseRemovalMinTime = 999;
+corpseRemovalMaxTime = 999;
+
+#include "dialog\MasterHandler.h"
+#include "dialog\slot_machine.hpp"
+
+class RscTitles
+{
+	#include "dialog\ui.hpp"
+	#include "statusBar.hpp"
+	#include "dialog\progress.hpp"
+	#include "dialog\hud_nameTags.h"
+};
+
+class CfgFunctions
+{
+	#include "Functions.h"
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	class SirenLong
+	{
+		name = "SirenLong";
+		sound[] = {"\sounds\Siren_Long.ogg", 1.0, 1};
+		titles[] = {};
+	};
+
+	class hello
+	{
+		name = "hello";
+		sound[] = {"\sounds\hello.ogg", 1.0, 1};
+		titles[] = {};
+	};
+
+	class Yelp
+	{
+        name = "Yelp";
+        sound[] = {"\sounds\Yelp.ogg", 1.0, 1};
+        titles[] = {};
+    };
+
+	class tazersound
+	{
+		name = "Tazersound";
+		sound[] = {"\sounds\tazer.ogg", 0.25, 1};
+		titles[] = {};
+	};
+
+	class car_lock
+    {
+        name = "car_lock";
+        sound[] = {"\sounds\car_lock.ogg", 1.0, 1};
+        titles[] = {};
+    };
+
+    class unlock
+    {
+        name = "unlock";
+        sound[] = {"\sounds\unlock.ogg", 1.0, 1};
+        titles[] = {};
+    };
+
+	class flashbang
+	{
+		name = "flashbang";
+		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
+		titles[] = {};
+	};
+
+	class MedicSiren
+	{
+		name = "MedicSiren";
+		sound[] = {"\sounds\Siren_Short.ogg", 1.0, 1};
+		titles[] = {};
+	};
+
+	class Phaser
+	{
+		name = "Phaser";
+		sound[] = {"\sounds\Phaser.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class Patdown
+	{
+		name = "patdown";
+		sound[] = {"\sounds\patdown.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class handcuff
+	{
+		name = "handcuff";
+		sound[] = {"\sounds\handcuff.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class car_alarm
+	{
+		name = "car_alarm";
+		sound[] = {"\sounds\caralarm.ogg", 1, 1};
+		titles[] = {};
+	};
+	class weed
+    {
+        name = "weed";
+        sound[] = {"\sounds\hits.ogg", 1.0, 1};
+		titles[] = {};
+    };
+	class purge
+	{
+		name = "purge";
+		sound[] = {"\sounds\purge.ogg",1.0,1.0}; 
+		titles[] = {};
+	};	
+};
+
+class CfgDebriefing
+{
+	class NotWhitelisted
+	{
+		title = "Mission Failed";
+		subtitle = "You are not white-listed to use this slot";
+		description = "Please play on Civilian side, apply on the TeamSpeak.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class Blacklisted
+	{
+		title = "Mission Failed";
+		subtitle = "You are blacklisted from cops";
+		description = "You are not allowed to be a cop due to previous actions and the admins have removed you from being a cop.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class SpyGlass
+	{
+		title = "The SpyGlass sees you";
+		subTitle = "You were detected by the SpyGlass";
+		description = "You were detected for cheating and have been reported to the server Admins.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+};
+
+class CfgNotifications
+{
+	class MedicalRequestEmerg
+	{
+		title = "Someone Needs a Revive";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
+		description = "%1";
+		duration = 5;
+		priority = 7;
+	};
+
+	class DeliveryAssigned
+	{
+		title = "Delivery Job Accepted";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
+		description = "%1";
+		duration = 10;
+		priority = 7;
+	};
+
+	class DeliveryFailed
+	{
+		title = "Delivery Job Failed";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconfailed_ca.paa";
+		description = "%1";
+		duration = 7;
+		priority = 7;
+	};
+
+	class DeliverySucceeded
+	{
+		title = "Delivery Job Completed";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcondone_ca.paa";
+		description = "%1";
+		duration = 6;
+		priority = 6;
+	};
+
+	class TextMessage
+	{
+		title = "Someone Texted You";
+		iconPicture = "icons\messagenew.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+
+	class PoliceDispatch
+	{
+		title = "Annoying Civilian Said";
+		iconPicture = "icons\messagepolice.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+
+	class AdminDispatch
+	{
+		title = "Annoying Player Said";
+		iconPicture = "icons\messageadmin.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+
+	class AdminMessage
+	{
+		title = "Banter Admins";
+		iconPicture = "icons\messageadmin.paa";
+		description = "%1";
+		duration = 10;
+		priority = 5;
+	};
+};
