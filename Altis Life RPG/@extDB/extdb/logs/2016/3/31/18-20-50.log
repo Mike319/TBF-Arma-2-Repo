@@ -1,0 +1,13 @@
+[19:20:50 +00:-1] [Thread 2784921764] extDB: Version: 35
+[19:20:50 +00:-1] [Thread 2784921764] extDB: Windows Version
+[19:20:50 +00:-1] [Thread 2784921764] Message: Arma Linux Servers are using Older Physic Library (than Windows Servers), due to Debian 7 using old version of Glibc
+[19:20:50 +00:-1] [Thread 2784921764] Message: If you like extDB consider donating or bug BIS to drop support for Debian 7 thanks, so Linux Servers get same Physic Library Version as Windows
+[19:20:50 +00:-1] [Thread 2784921764] Message: Note currently most/all development for extDB is done on a Linux Server
+[19:20:50 +00:-1] [Thread 2784921764] Message: Torndeco: 24/01/15
+[19:20:50 +00:-1] [Thread 2784921764] 
+[19:20:50 +00:-1] [Thread 2784921764] extDB: Found extdb-conf.ini
+[19:20:50 +00:-1] [Thread 2784921764] extDB: Detected 8 Cores, Setting up 6 Worker Threads
+[19:20:50 +00:-1] [Thread 2784921764] extDB: Database Type: MySQL
+[19:20:50 +00:-1] [Thread 2784921764] extDB: Database Session Pool Started
+[19:20:50 +00:-1] [Thread 2784921764] extDB: DB_CUSTOM_V5: Loading Template Filename: C:\Users\root\Documents\altistest\@extDB\extDB\db_custom\altis-life-rpg-4.ini
+[19:26:40 +00:-1] [Thread 2784921764] extDB: Stopping ...

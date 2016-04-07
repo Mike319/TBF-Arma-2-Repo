@@ -1,0 +1,18 @@
+[23:58:25 +00:-1] [Thread 812228628] extDB: Version: 35
+[23:58:25 +00:-1] [Thread 812228628] extDB: Windows Version
+[23:58:25 +00:-1] [Thread 812228628] Message: Arma Linux Servers are using Older Physic Library (than Windows Servers), due to Debian 7 using old version of Glibc
+[23:58:25 +00:-1] [Thread 812228628] Message: If you like extDB consider donating or bug BIS to drop support for Debian 7 thanks, so Linux Servers get same Physic Library Version as Windows
+[23:58:25 +00:-1] [Thread 812228628] Message: Note currently most/all development for extDB is done on a Linux Server
+[23:58:25 +00:-1] [Thread 812228628] Message: Torndeco: 24/01/15
+[23:58:25 +00:-1] [Thread 812228628] 
+[23:58:25 +00:-1] [Thread 812228628] extDB: Found extdb-conf.ini
+[23:58:25 +00:-1] [Thread 812228628] extDB: Detected 8 Cores, Setting up 6 Worker Threads
+[23:58:25 +00:-1] [Thread 812228628] extDB: Database Type: MySQL
+[23:58:25 +00:-1] [Thread 812228628] extDB: Database Session Pool Started
+[23:58:25 +00:-1] [Thread 812228628] extDB: DB_CUSTOM_V5: Loading Template Filename: C:\Users\root\Documents\altistest\@extDB\extDB\db_custom\altis-life-rpg-4.ini
+[11:05:44 +00:-1] [Thread 4128547755] extDB: DB_CUSTOM_V5: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Lost connection to MySQL server during query	[mysql_stmt_errno]: 2013	[mysql_stmt_sqlstate]: HY000	[statemnt]: SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist FROM players WHERE playerid=?;
+[11:05:44 +00:-1] [Thread 4128547755] extDB: DB_CUSTOM_V5: Error Exception: SQL: playerWestInfo:76561198057298594
+[11:05:45 +00:-1] [Thread 4128547755] extDB: DB_CUSTOM_V5: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Duplicate entry '76561198057298594' for key 'playerid'	[mysql_stmt_errno]: 1062	[mysql_stmt_sqlstate]: 23000	[statemnt]: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES(?,?,?,?,?,?,?,?,?,?,?)
+[11:05:45 +00:-1] [Thread 4128547755] extDB: DB_CUSTOM_V5: Error Exception: SQL: playerInfoInsert:76561198057298594:Rory Flannigan:0:60000:[["Rory Flannigan"]]:[]:[]:[]:[]:[]:[]
+[11:16:09 +00:-1] [Thread 4128547755] extDB: DB_CUSTOM_V5: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Lost connection to MySQL server during query	[mysql_stmt_errno]: 2013	[mysql_stmt_sqlstate]: HY000	[statemnt]: UPDATE players SET name=?, cash=?, bankacc=?, cop_gear=?, cop_licenses=? WHERE playerid=?
+[11:16:09 +00:-1] [Thread 4128547755] extDB: DB_CUSTOM_V5: Error Exception: SQL: playerWestUpdate:Rory Flannigan:61540:58782280:["IRA_Soldier_Outfit_11","ukPolice_Vest","AM_PoliceBelt","SAS_shemagh_OD","H_Beret_02",["ItemMap","ItemCompass","Itemwatch","tf_anprc152_72","ItemGPS","pmc_earpiece"],"hlc_smg_mp5a4","hgun_P07_snds_F",[],[],["policeUniform","ToolKit","Medikit","H_Beret_02","AJ_Mask_Black_Teamlead"],["16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag"],[],["hlc_5rnd_300WM_FMJ_AWM","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","16Rnd_9x21_Mag"],["","","",""],["muzzle_snds_L","","",""],[]]:[["license_cop_air",1],["license_cop_swat",0],["license_cop_cg",1]]:76561198057298594

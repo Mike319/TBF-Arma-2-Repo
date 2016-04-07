@@ -1,0 +1,13 @@
+[15:38:16 +00:-1] [Thread 229402298] extDB: Version: 35
+[15:38:16 +00:-1] [Thread 229402298] extDB: Windows Version
+[15:38:16 +00:-1] [Thread 229402298] Message: Arma Linux Servers are using Older Physic Library (than Windows Servers), due to Debian 7 using old version of Glibc
+[15:38:16 +00:-1] [Thread 229402298] Message: If you like extDB consider donating or bug BIS to drop support for Debian 7 thanks, so Linux Servers get same Physic Library Version as Windows
+[15:38:16 +00:-1] [Thread 229402298] Message: Note currently most/all development for extDB is done on a Linux Server
+[15:38:16 +00:-1] [Thread 229402298] Message: Torndeco: 24/01/15
+[15:38:16 +00:-1] [Thread 229402298] 
+[15:38:16 +00:-1] [Thread 229402298] extDB: Found extdb-conf.ini
+[15:38:16 +00:-1] [Thread 229402298] extDB: Detected 8 Cores, Setting up 6 Worker Threads
+[15:38:16 +00:-1] [Thread 229402298] extDB: Database Type: MySQL
+[15:38:16 +00:-1] [Thread 229402298] extDB: Database Session Pool Started
+[15:38:16 +00:-1] [Thread 229402298] extDB: DB_CUSTOM_V5: Loading Template Filename: C:\Users\root\Documents\altis\@extDB\extDB\db_custom\altis-life-rpg-4.ini
+[16:52:22 +00:-1] [Thread 2476285042] extDB: DB_CUSTOM_V5:Incorrect Number of Inputs: Input String vehicleUpdateAlive:0:76561198113010013:7

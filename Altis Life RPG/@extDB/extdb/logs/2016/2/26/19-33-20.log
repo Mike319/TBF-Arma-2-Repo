@@ -1,0 +1,16 @@
+[20:33:20 +00:-1] [Thread 1530359863] extDB: Version: 35
+[20:33:20 +00:-1] [Thread 1530359863] extDB: Windows Version
+[20:33:20 +00:-1] [Thread 1530359863] Message: Arma Linux Servers are using Older Physic Library (than Windows Servers), due to Debian 7 using old version of Glibc
+[20:33:20 +00:-1] [Thread 1530359863] Message: If you like extDB consider donating or bug BIS to drop support for Debian 7 thanks, so Linux Servers get same Physic Library Version as Windows
+[20:33:20 +00:-1] [Thread 1530359863] Message: Note currently most/all development for extDB is done on a Linux Server
+[20:33:20 +00:-1] [Thread 1530359863] Message: Torndeco: 24/01/15
+[20:33:20 +00:-1] [Thread 1530359863] 
+[20:33:20 +00:-1] [Thread 1530359863] extDB: Found extdb-conf.ini
+[20:33:20 +00:-1] [Thread 1530359863] extDB: Detected 8 Cores, Setting up 6 Worker Threads
+[20:33:20 +00:-1] [Thread 1530359863] extDB: Database Type: MySQL
+[20:33:20 +00:-1] [Thread 1530359863] extDB: Database Session Pool Started
+[20:33:20 +00:-1] [Thread 1530359863] extDB: DB_CUSTOM_V5: Loading Template Filename: C:\Users\root\Documents\altis\@extDB\extDB\db_custom\altis-life-rpg-4.ini
+[15:43:39 +00:-1] [Thread 62869958] extDB: DB_CUSTOM_V5: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Lost connection to MySQL server during query	[mysql_stmt_errno]: 2013	[mysql_stmt_sqlstate]: HY000	[statemnt]: SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist FROM players WHERE playerid=?;
+[15:43:39 +00:-1] [Thread 62869958] extDB: DB_CUSTOM_V5: Error Exception: SQL: playerWestInfo:76561198134286847
+[15:43:39 +00:-1] [Thread 62869958] extDB: DB_CUSTOM_V5: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Duplicate entry '76561198134286847' for key 'playerid'	[mysql_stmt_errno]: 1062	[mysql_stmt_sqlstate]: 23000	[statemnt]: INSERT INTO players (playerid, name, cash, bankacc, aliases, cop_licenses, med_licenses, civ_licenses, civ_gear, cop_gear, med_gear) VALUES(?,?,?,?,?,?,?,?,?,?,?)
+[15:43:39 +00:-1] [Thread 62869958] extDB: DB_CUSTOM_V5: Error Exception: SQL: playerInfoInsert:76561198134286847:Aaron Strife:0:25000:[["Aaron Strife"]]:[]:[]:[]:[]:[]:[]
