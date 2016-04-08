@@ -178,7 +178,8 @@ life_licenses =
 	["license_civ_dive","civ"],
 	["license_civ_truck","civ"],
 	["license_civ_gun","civ"],
-	["license_civ_rebel","civ"],
+	["license_civ_vc","civ"],
+	["license_civ_nv","civ"],
 	["license_civ_coke","civ"],
 	["license_civ_diamond","civ"],
 	["license_civ_copper","civ"],
@@ -204,8 +205,8 @@ life_illegal_items = [["heroinu",1200],["heroinp",2500],["cocaine",1500],["cocai
 sell_array = 
 [
 	["apple",50],
-	["heroinu",1850],
-	["heroinp",2650],
+	["heroinu",1450],
+	["heroinp",1950],
 	["salema",45],
 	["ornate",40],
 	["mackerel",175],
@@ -219,24 +220,24 @@ sell_array =
 	["coffee",5],
 	["turtlesoup",1000],
 	["donuts",60],
-	["marijuana",2350],
+	["marijuana",1750],
 	["tbacon",25],
 	["lockpick",75],
 	["pickaxe",750],
 	["redgull",200],
 	["peach",55],
-	["cocaine",3000],
-	["cocainep",5000],
+	["cocaine",1700],
+	["cocainep",2000],
 	["diamond",750],
 	["diamondc",2000],
-	["iron_r",3200],
+	["iron_r",2500],
 	["copper_r",1500],
 	["salt_r",1650],
 	["glass",1450],
 	["fuelF",500],
 	["spikeStrip",1200],
 	["cement",1950],
-	["goldbar",95000]
+	["goldbar",20000]
 ];
 __CONST__(sell_array,sell_array);
 

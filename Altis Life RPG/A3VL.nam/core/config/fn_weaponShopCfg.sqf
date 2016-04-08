@@ -105,7 +105,7 @@ switch(_shop) do
 			{
 				["Altis Sergeant Officer Shop",
 					[
-						["SMG_02_ACO_F",nil,15000],
+						["SMG_02_ACO_F",nil,14000],
 						["hgun_ACPC2_F",nil,17500],
 						["HandGrenade_Stone","Flashbang",1700],
 						["arifle_MXC_F",nil,30000],
@@ -149,7 +149,56 @@ switch(_shop) do
 		};
 	};
 	
-	case "gun":
+	case "nvietnam":
+	{
+		switch(true) do
+		{
+			case (playerSide != civilian): {"You are not a civilian!"};
+			case (!license_civ_gun): {"You don't have a Firearms license!"};
+			default
+			{
+				["Billy Joe's Firearms",
+					[
+						["CUP_arifle_AK47",nil,14000],
+						["CUP_30Rnd_762x39_AK47_M",nil,400],
+						["NAM_PPSH41",nil,8000],
+						["PPSH_Magazine",nil,450],
+						["NAM_RPD",nil,14000],
+						["RPD_Magazine",nil,500],
+						["NAM_SKS",nil,24000],
+						["SKS_Magazine",nil,750],
+						["CUP_hgun_Makarov",nil,2000],
+						["CUP_8Rnd_9x18_Makarov_M",nil,180],
+						["CUP_launch_RPG7V",nil,250000],
+						["CUP_PG7V_M",nil,25000]
+						
+					]
+				];
+			};
+		};
+	};
+		case "vietcong":
+	{
+		switch(true) do
+		{
+			case (playerSide != civilian): {"You are not a civilian!"};
+			case (!license_civ_vc): {"You are not part of the Viet-Cong!"};
+			default
+			{
+				["Billy Joe's Firearms",
+					[
+						["CUP_arifle_AK47",nil,15000],
+						["CUP_30Rnd_762x39_AK47_M",nil,400],
+						["NAM_PPSH41",nil,9000],
+						["PPSH_Magazine",nil,450],
+						["CUP_hgun_Makarov",nil,3000],
+						["CUP_8Rnd_9x18_Makarov_M",nil,250]
+					]
+				];
+			};
+		};
+	};
+		case "gun":
 	{
 		switch(true) do
 		{
