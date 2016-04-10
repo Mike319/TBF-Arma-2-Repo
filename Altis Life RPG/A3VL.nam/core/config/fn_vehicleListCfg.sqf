@@ -54,8 +54,8 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["C_Van_01_box_F",60000],
-			["I_Truck_02_transport_F",75000],
+			["C_Van_01_box_F",50000],
+			["C_Van_01_transport_F",75000],
 			["I_Truck_02_covered_F",100000],
 			["B_Truck_01_transport_F",275000],
 			["O_Truck_03_transport_F",200000],
@@ -66,14 +66,18 @@ switch (_shop) do
 	};
 	
 	
-	case "reb_car":
+	case "nv_car":
 	{
 		_return =
 		[
-			["B_Quadbike_01_F",2500],
-			["B_G_Offroad_01_F",15000],
+			["C_Quadbike_01_F",3000],
 			["O_MRAP_02_F",150000],
-			["B_Heli_Light_01_F",325000]
+			["ACV_BTR60_NVA",600000],
+			["NVA_Ural_O",15000],
+			["NVA_Ural",150000],
+			["NVA_Ural_C",600000],
+			["I_G_Van_01_transport_F",600000],
+			
 		];
 		
 		if(license_civ_rebel) then
@@ -86,9 +90,17 @@ switch (_shop) do
 	case "cop_car":
 	{
 		_return pushBack
-		["C_Offroad_01_F",5000];
+		["ACV_M35_Closed",4000];
 		_return pushBack
-		["C_SUV_01_F",20000];
+		["ACV_M35_Open",4000];
+		_return pushBack
+		["ACV_M35_Ammo",8000];
+		_return pushBack
+		["ACV_M35_Repair",8000];
+		_return pushBack
+		["willy_jeep",4000];
+		_return pushBack
+		["I_G_Quadbike_01_F",3000];
 		if(__GETC__(life_coplevel) > 2) then
 		{
 			_return pushBack
@@ -98,11 +110,16 @@ switch (_shop) do
 	
 	case "civ_air":
 	{
-		_return =
-		[
+			_return pushBack
 			["B_Heli_Light_01_F",253000],
+			_return pushBack
 			["O_Heli_Light_02_unarmed_F",750000]
-		];
+			if(__GETC__(life_coplevel) > 2) then
+		{
+			_return pushBack
+			["B_MRAP_01_F",30000];
+		};
+		
 	};
 	
 	case "cop_air":
