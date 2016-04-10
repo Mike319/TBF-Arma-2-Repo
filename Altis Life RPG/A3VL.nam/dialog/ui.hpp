@@ -20,6 +20,17 @@
 				w = 0.03; h = 0.04;
 			};
 			
+			class watermark : life_RscPicture
+			{
+				idc = -1;
+				text = "icons\watermark.paa";
+				x = 0.86 * safezoneW + safezoneX;
+				y = 0.83 * safezoneH + safezoneY;
+				w = 0.12 * safezoneW;
+				h = 0.175 * safezoneH;
+				//w = 0.25; h = 0.31;
+			};
+			
 			class waterHIcon : life_RscPicture 
 			{
 			
