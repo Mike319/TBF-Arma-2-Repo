@@ -75,7 +75,8 @@ class Mission
 		"mil",
 		"A3_Characters_F_INDEP",
 		"uns_east",
-		"A3_Structures_F_Items_Electronics"
+		"A3_Structures_F_Items_Electronics",
+		"A3_Structures_F_Civ_InfoBoards"
 	};
 	addOnsAuto[]=
 	{
@@ -148,6 +149,7 @@ class Mission
 		"uns_firebase",
 		"mil",
 		"A3_Structures_F_Items_Electronics",
+		"A3_Structures_F_Civ_InfoBoards",
 		"nam"
 	};
 	randomSeed=9134120;
@@ -3429,7 +3431,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1839;
+		items=1843;
 		class Item0
 		{
 			position[]={2885.0769,75.150024,19059.77};
@@ -21492,10 +21494,52 @@ class Mission
 			text="hq_desk_1";
 			init="this enableSimulation false; this allowDamage false;";
 		};
+		class Item1839
+		{
+			position[]={2682.325,4,930.93298};
+			azimut=116.325;
+			id=2040;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this addAction [""Play BlackJack"", life_fnc_blackjack];";
+		};
+		class Item1840
+		{
+			position[]={2684.9316,4,936.08508};
+			azimut=116.325;
+			id=2041;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this addAction [""Play BlackJack"", life_fnc_blackjack];";
+		};
+		class Item1841
+		{
+			position[]={19147.693,4,11033.358};
+			azimut=1.95058;
+			offsetY=0.1;
+			id=2042;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this addAction [""Play BlackJack"", life_fnc_blackjack];";
+		};
+		class Item1842
+		{
+			position[]={19149.732,4,11033.265};
+			azimut=361.60727;
+			offsetY=0.1;
+			id=2043;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this addAction [""Play BlackJack"", life_fnc_blackjack];";
+		};
 	};
 	class Markers
 	{
-		items=186;
+		items=188;
 		class Item0
 		{
 			position[]={399.56137,16.439337,18792.211};
@@ -22976,6 +23020,24 @@ class Mission
 			name="cop_ship_1";
 			type="Empty";
 			angle=254.11;
+		};
+		class Item186
+		{
+			position[]={2685.0012,4,933.11359};
+			name="bbbbbb";
+			text="Blackjack";
+			type="hd_dot";
+			colorName="ColorRed";
+			angle=182.38718;
+		};
+		class Item187
+		{
+			position[]={19152.396,4,11032.686};
+			name="bbbbbb_1";
+			text="Blackjack";
+			type="hd_dot";
+			colorName="ColorRed";
+			angle=182.38718;
 		};
 	};
 };
