@@ -28,11 +28,18 @@ switch (_type) do
 	case "truck": {20000}; //Truck license cost
 	case "diamond": {35000};
 	case "salt": {12000};
-	case "cocaine": {30000};
 	case "sand": {14500};
 	case "iron": {9500};
 	case "copper": {8000};
 	case "cement": {6500};
 	case "mair": {15000};
 	case "home": {75000};
+	
+	case "heroin": {2500}; //Heroin processing license cost
+	case "marijuana": {2500}; //Marijuana processing license cost
+	case "meth": {2500};
+	case "opium": {2500};
+	case "methpill": {10000};
+	case "ketamine": {2500};
+	case "ecstacy": {2500};
 };

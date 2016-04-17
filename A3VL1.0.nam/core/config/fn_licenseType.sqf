@@ -25,21 +25,25 @@ switch (_mode) do
 			case "cair": {_var = "license_cop_air"}; //Cop Pilot License cost
 			case "swat": {_var = "license_cop_swat"}; //Swat License cost
 			case "cg": {_var = "license_cop_cg"}; //Coast guard license cost
-			case "heroin": {_var = "license_civ_heroin"}; //Heroin processing license cost
-			case "marijuana": {_var = "license_civ_marijuana"}; //Marijuana processing license cost
 			case "medmarijuana": {_var = "license_civ_medmarijuana"}; //Medical Marijuana processing license cost
 			case "gang": {_var = "license_civ_gang"}; //Gang license cost
 			case "rebel": {_var = "license_civ_rebel"}; //Rebel License
 			case "truck":{_var = "license_civ_truck"}; //Truck License
 			case "diamond": {_var = "license_civ_diamond"};
 			case "salt": {_var = "license_civ_salt"};
-			case "cocaine": {_var = "license_civ_coke"};
 			case "sand": {_var = "license_civ_sand"};
 			case "iron": {_var = "license_civ_iron"};
 			case "copper": {_var = "license_civ_copper"};
 			case "cement": {_var = "license_civ_cement"};
 			case "mair": {_var = "license_med_air"};
 			case "home": {_var = "license_civ_home"};
+			case "heroin": {_var = "license_civ_heroin"}; //Heroin processing license cost
+			case "weed": {_var = "license_civ_marijuana"}; //Marijuana processing license cost
+			case "meth": {_var = "license_civ_meth"};
+			case "opium": {_var = "license_civ_opium"};
+			case "methpill": {_var = "license_civ_methpill"};
+			case "ketamine": {_var = "license_civ_ketamine"};
+			case "ecstacy": {_var = "license_med_ecstacy"};
 			default {_var = ""};
 		};
 	};
@@ -57,21 +61,25 @@ switch (_mode) do
 			case "license_cop_air": {_var = "cair"}; //Cop Pilot License cost
 			case "license_cop_swat": {_var = "swat"}; //Swat License cost
 			case "license_cop_cg": {_var = "cg"}; //Coast guard license cost
-			case "license_civ_heroin": {_var = "heroin"}; //Heroin processing license cost
-			case "license_civ_marijuana": {_var = "marijuana"}; //Marijuana processing license cost
 			case "license_civ_medmarijuana": {_var = "medmarijuana"}; //Medical Marijuana processing license cost
 			case "license_civ_gang": {_var = "gang"}; //Gang license cost
 			case "license_civ_rebel": {_var = "rebel"}; //Rebel License
 			case "license_civ_truck":{_var = "truck"}; //Truck License
 			case "license_civ_diamond": {_var = "diamond"};
 			case "license_civ_salt": {_var = "salt"};
-			case "license_civ_coke": {_var = "cocaine"};
 			case "license_civ_sand": {_var = "sand"};
 			case "license_civ_iron": {_var = "iron"};
 			case "license_civ_copper": {_var = "copper"};
 			case "license_civ_cement": {_var = "cement"};
 			case "license_med_air": {_var = "mair"};
 			case "license_civ_home": {_var = "home"};
+			case "license_civ_heroin": {_var = "heroin"}; //Heroin processing license cost
+			case "license_civ_marijuana": {_var = "marijuana"}; //Marijuana processing license cost
+			case "license_civ_meth": {_var = "meth"};
+			case "license_civ_opium": {_var = "opium"};
+			case "license_civ_methpill": {_var = "methpill"};
+			case "license_civ_ketamine": {_var = "ketamine"};
+			case "license_med_ecstacy": {_var = "ecstacy"};
 			default {_var = ""};
 		};
 	};

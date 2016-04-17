@@ -148,12 +148,19 @@ class VirtualItems {
 	VITEMMACRO(cement, "STR_Item_CementBag", "cement", 5, -1, 1950, false, -1, "")
 
 	//Drugs
-	VITEMMACRO(heroin_unprocessed, "STR_Item_HeroinU", "heroinUnprocessed", 6, -1, -1, true, -1, "")
-	VITEMMACRO(heroin_processed, "STR_Item_HeroinP", "heroinProcessed", 4, -1, 2560, true, -1, "")
-	VITEMMACRO(cannabis, "STR_Item_Cannabis", "cannabis", 4, -1, -1, true, -1, "")
-	VITEMMACRO(marijuana, "STR_Item_Marijuana", "marijuana", 3, 2800, 2350, true, -1, "icons\ico_marijuana.paa")
-	VITEMMACRO(cocaine_unprocessed, "STR_Item_CocaineU", "cocaineUnprocessed", 6, -1, 3000, true, -1, "")
-	VITEMMACRO(cocaine_processed, "STR_Item_CocaineP", "cocaineProcessed", 4, -1, 5000, true, -1, "")
+	VITEMMACRO(heroinu, "STR_Item_HeroinU", "heroinU", 6, -1, 3000, true, -1, "")
+	VITEMMACRO(heroinp, "STR_Item_HeroinP", "heroinP", 4, -1, 5000, true, -1, "")
+	VITEMMACRO(weedu, "STR_Item_WeedU", "weedu", 4, -1, 2000, true, -1, "")
+	VITEMMACRO(weedp, "STR_Item_WeedP", "weedp", 3, 2800, 5000, true, -1, "icons\ico_marijuana.paa")
+	VITEMMACRO(methu, "STR_Item_MethU", "methu", 6, -1, 3000, true, -1, "")
+	VITEMMACRO(methp, "STR_Item_MethP", "methp", 4, -1, 5000, true, -1, "")
+	VITEMMACRO(opiumu, "STR_Item_OpiumU", "opiumu", 6, -1, 3000, true, -1, "")
+	VITEMMACRO(opiump, "STR_Item_OpiumP", "opiump", 4, -1, 5000, true, -1, "")
+	VITEMMACRO(methpill, "STR_Item_Methpill", "methpill", 3, -1, 8000, true, -1, "")
+	VITEMMACRO(ketamineu, "STR_Item_KetamineU", "ketamineu", 6, -1, 3000, true, -1, "")
+	VITEMMACRO(ketaminep, "STR_Item_KetamineP", "ketaminep", 4, -1, 5000, true, -1, "")
+	VITEMMACRO(ecstacyu, "STR_Item_EcstacyU", "ecstacyu", 6, -1, 3000, true, -1, "")
+	VITEMMACRO(ecstacyp, "STR_Item_EcstacyP", "ecstacyp", 4, -1, 5000, true, -1, "")
 
 	//Drink
 	VITEMMACRO(redgull, "STR_Item_RedGull", "redgull", 1, 1500, 200, false, 100, "icons\ico_redgull.paa")
@@ -201,26 +208,30 @@ class VirtualItems {
 class Licenses {
 	LICENSEMACRO(driver,"STR_License_Driver","driver",500,false,"civ")
 	LICENSEMACRO(boat,"STR_License_Boat","boat",1000,false,"civ")
-	LICENSEMACRO(pilot,"STR_License_Pilot","pilot",25000,false,"civ")
-	LICENSEMACRO(gun,"STR_License_Firearm","gun",10000,false,"civ")
+	LICENSEMACRO(pilot,"STR_License_Pilot","pilot",2000,false,"civ")
+	LICENSEMACRO(gun,"STR_License_Firearm","gun",1000,false,"civ")
 	LICENSEMACRO(dive,"STR_License_Diving","dive",2000,false,"civ")
-	LICENSEMACRO(oil,"STR_License_Oil","oil",10000,false,"civ")
-	LICENSEMACRO(cAir,"STR_License_Pilot","cAir",15000,false,"cop")
-	LICENSEMACRO(coastguard,"STR_License_CG","cg",8000,false,"cop")
-	LICENSEMACRO(heroin,"STR_License_Heroin","heroin",25000,true,"civ")
-	LICENSEMACRO(marijuana,"STR_License_Marijuana","marijuana",19500,true,"civ")
-	LICENSEMACRO(medmarijuana,"STR_License_Medmarijuana","medmarijuana",15000,false,"civ")
-	LICENSEMACRO(rebel,"STR_License_Rebel","rebel",75000,true,"civ")
-	LICENSEMACRO(trucking,"STR_License_Truck","trucking",20000,false,"civ")
-	LICENSEMACRO(diamond,"STR_License_Diamond","diamond",35000,false,"civ")
-	LICENSEMACRO(salt,"STR_License_Salt","salt",12000,false,"civ")
-	LICENSEMACRO(cocaine,"STR_License_Cocaine","cocaine",30000,false,"civ")
-	LICENSEMACRO(sand,"STR_License_Sand","sand",14500,false,"civ")
-	LICENSEMACRO(iron,"STR_License_Iron","iron",9500,false,"civ")
-	LICENSEMACRO(copper,"STR_License_Copper","copper",8000,false,"civ")
-	LICENSEMACRO(cement,"STR_License_Cement","cement",6500,false,"civ")
-	LICENSEMACRO(mAir,"STR_License_Pilot","mAir",15000,false,"med")
-	LICENSEMACRO(home,"STR_License_Home","home",75000,false,"civ")
+	LICENSEMACRO(oil,"STR_License_Oil","oil",1000,false,"civ")
+	LICENSEMACRO(cAir,"STR_License_Pilot","cAir",1000,false,"cop")
+	LICENSEMACRO(coastguard,"STR_License_CG","cg",800,false,"cop")
+	LICENSEMACRO(heroin,"STR_License_Heroin","heroin",2500,true,"civ")
+	LICENSEMACRO(weed,"STR_License_Weed","weed",1500,true,"civ")
+	LICENSEMACRO(rebel,"STR_License_Rebel","rebel",50000,true,"civ")
+	LICENSEMACRO(trucking,"STR_License_Truck","trucking",2000,false,"civ")
+	LICENSEMACRO(diamond,"STR_License_Diamond","diamond",3000,false,"civ")
+	LICENSEMACRO(salt,"STR_License_Salt","salt",1200,false,"civ")
+	LICENSEMACRO(cocaine,"STR_License_Cocaine","cocaine",3000,false,"civ")
+	LICENSEMACRO(sand,"STR_License_Sand","sand",1400,false,"civ")
+	LICENSEMACRO(iron,"STR_License_Iron","iron",900,false,"civ")
+	LICENSEMACRO(copper,"STR_License_Copper","copper",800,false,"civ")
+	LICENSEMACRO(cement,"STR_License_Cement","cement",600,false,"civ")
+	LICENSEMACRO(mAir,"STR_License_Pilot","mAir",1000,false,"med")
+	LICENSEMACRO(home,"STR_License_Home","home",25000,false,"civ")
+	LICENSEMACRO(meth,"STR_License_Heroin","meth",3000,true,"civ")
+	LICENSEMACRO(opium,"STR_License_Opium","opium",3000,true,"civ")
+	LICENSEMACRO(methpill,"STR_License_Methpill","methpill",3000,true,"civ")
+	LICENSEMACRO(ketamine,"STR_License_Ketamine","ketamine",3000,true,"civ")
+	LICENSEMACRO(ecstacy,"STR_License_Ecstacy","ecstacy",3000,true,"civ")
 };
 
 class VirtualShops {
@@ -251,7 +262,7 @@ class VirtualShops {
 	
 	class drugdealer {
 		name = "STR_Shops_DrugDealer";
-		items[] = { "cocaine_processed", "heroin_processed", "marijuana" };
+		items[] = { "opiump", "heroinp", "weedp", "methp", "methpill", "ketaminep", "ecstacyp" },
 	};
 
 	class oil {
