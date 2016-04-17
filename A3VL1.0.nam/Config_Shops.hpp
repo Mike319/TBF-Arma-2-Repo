@@ -7,16 +7,10 @@ class WeaponShops {
         level = -1;
         msg = "";
         items[] = {
-            { "hgun_Rook40_F", "", 6500 },
-            { "hgun_Pistol_heavy_02_F", "", 9850 },
-            { "hgun_ACPC2_F", "", 11500 },
-            { "hgun_PDW2000_F", "", 20000 },
-            { "optic_ACO_grn_smg", "", 2500 },
-            { "V_Rangemaster_belt", "", 4900 },
-            { "16Rnd_9x21_Mag", "", 25 },
-            { "9Rnd_45ACP_Mag", "", 45 },
-            { "6Rnd_45ACP_Cylinder", "", 50 },
-            { "30Rnd_9x21_Mag", "", 75 }
+            { "hgun_SA_makarov_pm_F", "", 5500 },
+            { "8Rnd_9x18_Mag", "", 150 },
+            { "hgun_SA_nambu_type14_F", "", 5800 },
+            { "8Rnd_8x22_Mag", "", 75 }
         };
     };
     class rebel {
@@ -28,13 +22,19 @@ class WeaponShops {
         items[] = {
             { "hlc_rifle_akm", "", 25000 },
 			{ "hlc_30Rnd_762x39_b_ak", "", 500 },
-            { "hlc_rifle_ak74", "", 30000 },
-            { "hlc_30Rnd_545x39_B_AK", "", 500 },
+			{ "smg_SA_9a91", "", 25000 },
+			{ "20Rnd_SA_9x39", "", 500 },
+			{ "prifle_SA_Mosin", "", 35000 },
+			{ "5Rnd_SA_762x54_Bullets", "", 500 },
+			{ "prifle_SA_Mosin", "", 35000 },
+			{ "5Rnd_SA_762x54_Bullets", "", 500 },
+            { "NAM_SKS", "", 30000 },
+            { "SKS_Magazine", "", 500 },
             { "hlc_rifle_ak47", "", 20000 },
             { "hlc_30Rnd_762x39_b_ak", "", 500 },
             { "optic_Holosight", "", 3600 },
-            { "arifle_TRG20_F", "", 500 },
-            { "30Rnd_65x39_caseless_green", "", 275 }
+            { "RH_ar10", "", 50000 },
+            { "RH_20Rnd_762x51_AR10", "", 775 }
         };
     };
     class gang {
@@ -44,14 +44,8 @@ class WeaponShops {
         level = -1;
         msg = "";
         items[] = {
-            { "hgun_Rook40_F", "", 1500 },
-            { "hgun_Pistol_heavy_02_F", "", 2500 },
-            { "hgun_ACPC2_F", "", 4500 },
-            { "hgun_PDW2000_F", "", 9500 },
-            { "optic_ACO_grn_smg", "", 950 },
-            { "V_Rangemaster_belt", "", 1900 },
-            { "16Rnd_9x21_Mag", "", 25 },
-            { "9Rnd_45ACP_Mag", "", 45 },
+            { "hgun_SA_makarov_pm_F", "", 1500 },
+            { "8Rnd_9x18_Mag", "", 150 },
             { "6Rnd_45ACP_Cylinder", "", 50 },
             { "30Rnd_9x21_Mag", "", 75 }
         };
@@ -68,7 +62,7 @@ class WeaponShops {
 			{ "ItemGPS", "", 100 },
 			{ "ToolKit", "", 250 },
 			{ "FirstAidKit", "", 150 },
-			{ "NVGoggles", "", 2000 },
+			{ "hgun_flashlight_Sam_F", "", 2000 },
 			{ "Chemlight_red", "", 300 },
 			{ "Chemlight_yellow", "", 300 },
 			{ "Chemlight_green", "", 300 },
@@ -83,19 +77,9 @@ class WeaponShops {
         level = -1;
         msg = "";
         items[] = {
-        	{ "arifle_sdar_F", "Taser Rifle", 20000 },
-			{ "hgun_P07_snds_F", "Stun Pistol", 2000 },
-			{ "hgun_P07_F", "", 7500 },
-			{ "HandGrenade_Stone", "Flashbang", 1700 },
 			{ "Binocular", "", 150 },
 			{ "ItemGPS", "", 100 },
-			{ "ToolKit", "", 250 },
-			{ "muzzle_snds_L", "", 650 },
-			{ "FirstAidKit", "", 150 },
-			{ "Medikit", "", 1000 },
-			{ "NVGoggles", "", 2000 },
-			{ "16Rnd_9x21_Mag", "", 50 },
-			{ "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 125 }
+			{ "ToolKit", "", 250 }
         };
     };
     class cop_patrol {
@@ -108,6 +92,8 @@ class WeaponShops {
         	{ "RH_M16a1", "", 5000 },
 			{ "RH_30Rnd_556x45_M855A1", "", 300 },
 			{ "RH_M16A2gl", "", 5000 },
+			{ "smg_SA_m1a1_F", "", 5000 },
+			{ "20Rnd_SA_45ACP", "", 50 },
 			{ "RH_30Rnd_556x45_M855A1", "", 300 },
 			{ "NAM_CAR15_CM", "", 5000 },
 			{ "30Rnd_556x45_Stanag", "", 300 }
@@ -134,7 +120,7 @@ class WeaponShops {
 			{ "RPD_Magazine", "", 100 },
 			{ "HAFM_LAW", "", 10000 },
 			{ "HAFM_M72_Rocket", "", 100 },
-			{ "9Rnd_45ACP_Mag", "", 200 }
+			{ "cobra_m2_suppressor", "", 200 }
         };
     };
     //Medic Shops
@@ -144,13 +130,36 @@ class WeaponShops {
         license = "";
         level = -1;
         items[] = {
-            { "ItemGPS", "", 100 },
-			{ "Binocular", "", 150 },
-			{ "ToolKit", "", 250 },
+            { "UNS_ARMY_BDU_F", "", 100 },
+			{ "UNS_ARMY_MED", "", 150 },
+			{ "m1a1helmet_medic", "", 250 },
+			{ "H_PilotHelmetHeli_O", "", 250 },
 			{ "FirstAidKit", "", 150 },
 			{ "Medikit", "", 500 },
-			{ "NVGoggles", "", 1200 },
-			{ "B_FieldPack_ocamo", "", 3000 }
+			{ "UNS_Peace", "", 1200 },
+			{ "ItemGPS", "", 3000 }
+        };
+    };
+	//NVA Shops
+	class NVA_basic {
+        name = "NVA Shop";
+        side = "adac";
+        license = "";
+        level = -1;
+        msg = "You must be NVA";
+        items[] = {
+        	{ "hlc_rifle_ak47", "", 20000 },
+			{ "hlc_30Rnd_762x39_b_ak", "", 200 },
+			{ "hlc_rifle_akm", "", 20000 },
+			{ "hlc_30Rnd_762x39_b_ak", "", 200 },
+			{ "hlc_rifle_RK62", "", 30000 },
+			{ "hlc_30Rnd_762x39_b_ak", "", 200 },
+			{ "muzzle_snds_L", "", 650 },
+			{ "FirstAidKit", "", 150 },
+			{ "Medikit", "", 1000 },
+			{ "NVGoggles", "", 2000 },
+			{ "16Rnd_9x21_Mag", "", 50 },
+			{ "20Rnd_556x45_UW_mag", "", 125 }
         };
     };
 };

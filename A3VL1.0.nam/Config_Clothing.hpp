@@ -193,6 +193,64 @@ class Clothing {
 			{ "B_Carryall_cbr", "", 3500, { "", "", -1 } }
 		};
 	};
+	
+	class adac {
+		title = "STR_Shops_C_NVA";
+		license = "";
+		side = "adac";
+
+		uniforms[] = {
+			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
+			{ "UNS_NVA_G", "", 350, { "", "", -1 } },
+			{ "UNS_NVA_GC", "", 350, { "life_adaclevel", "SCALAR", 1 } },
+			{ "CUP_U_O_SLA_Officer", "", 550, { "life_adaclevel", "SCALAR", 5 } }
+		};
+
+		headgear[] = {
+			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
+			{ "UNS_NVA_HG", "", 75, { "life_adaclevel", "SCALAR", 1 } },
+			{ "UNS_NVA_HGG", "", 75, { "life_adaclevel", "SCALAR", 1 } },
+			{ "UNS_PAVN_HN", "", 75, { "life_adaclevel", "SCALAR", 1 } },
+			{ "UNS_PAVN_HC", "", 75, { "life_adaclevel", "SCALAR", 1 } }
+		};
+
+		goggles[] = {
+			{ "NONE", "Remove Glasses", 0, { "", "", -1 } },
+			{ "G_Shades_Black", "", 25, { "", "", -1 } },
+			{ "G_Shades_Blue", "", 20, { "", "", -1 } },
+			{ "G_Sport_Blackred", "", 20, { "", "", -1 } },
+			{ "G_Sport_Checkered", "", 20, { "", "", -1 } },
+			{ "G_Sport_Blackyellow", "", 20, { "", "", -1 } },
+			{ "G_Sport_BlackWhite", "", 20, { "", "", -1 } },
+			{ "G_Squares", "", 10, { "", "", -1 } },
+			{ "G_Aviator", "", 100, { "", "", -1 } },
+			{ "G_Lady_Mirror", "", 150, { "", "", -1 } },
+			{ "G_Lady_Dark", "", 150, { "", "", -1 } },
+			{ "G_Lady_Blue", "", 150, { "", "", -1 } },
+			{ "G_Lowprofile", "", 30, { "", "", -1 } },
+			{ "G_Combat", "", 55, { "", "", -1 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
+			{ "UNS_NVA_A1", "", 800, { "", "", -1 } },
+			{ "UNS_NVA_A2", "", 800, { "", "", -1 } },
+			{ "UNS_NVA_A3", "", 800, { "", "", -1 } },
+			{ "UNS_NVA_S1", "", 800, { "", "", -1 } },
+			{ "UNS_NVA_S2", "", 800, { "", "", -1 } },
+			{ "UNS_NVA_B1", "", 800, { "", "", -1 } },
+			{ "UNS_NVA_MG", "", 800, { "", "", -1 } },
+			{ "UNS_NVA_SP", "", 800, { "", "", -1 } }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Remove Backpack", 0, { "", "", -1 } },
+			{ "UNS_NVA_R1", "", 800, { "", "", -1 } },
+			{ "UNS_NVA_RPG", "", 800, { "", "", -1 } },
+			{ "CUP_B_AlicePack_Medic", "", 800, { "", "", -1 } },
+			{ "UNS_NVA_RTO", "", 75, { "life_adaclevel", "SCALAR", 2 } }
+		};
+	};
 
 	class dive {
 		title = "STR_Shops_C_Diving";
@@ -230,23 +288,16 @@ class Clothing {
 
 		uniforms[] = {
 			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
-			{ "U_IG_Guerilla1_1", "", 5000, {"", "", -1} },
-			{ "U_I_G_Story_Protagonist_F", "", 7500, { "", "", -1 } },
-			{ "U_I_G_resistanceLeader_F", "", 11500, { "", "", -1 } },
-			{ "U_O_SpecopsUniform_ocamo", "", 17500, { "", "", -1 } },
-			{ "U_O_PilotCoveralls", "", 15610, { "", "", -1 } },
-			{ "U_IG_leader", "Guerilla Leader", 15340, { "", "", -1 } },
-			{ "U_O_GhillieSuit", "", 50000, { "", "", -1 } }
+			{ "UNS_VC_S", "", 5000, {"", "", -1} },
+			{ "UNS_VC_U", "", 7500, { "", "", -1 } },
+			{ "UNS_VC_C", "", 11500, { "", "", -1 } }
 		};
 
 		headgear[] = {
 			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
-			{ "H_ShemagOpen_tan", "", 850, { "", "", -1 } },
-			{ "H_Shemag_olive", "", 850, { "", "", -1 } },
-			{ "H_ShemagOpen_khk", "", 800, { "", "", -1 } },
-			{ "H_HelmetO_ocamo", "", 2500, { "", "", -1 } },
-			{ "H_MilCap_oucamo", "", 1200, { "", "", -1 } },
-			{ "H_Bandanna_camo", "", 650, { "", "", -1 } }
+			{ "UNS_Boonie_VC", "", 850, { "", "", -1 } },
+			{ "UNS_Conehat_VC", "", 850, { "", "", -1 } },
+			{ "vc_boonie_black", "", 1000, { "", "", -1 } }
 		};
 
 		goggles[] = {
@@ -264,14 +315,14 @@ class Clothing {
 
 		vests[] = {
 			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
-			{ "V_TacVest_khk", "", 12500, { "", "", -1 } },
-			{ "V_BandollierB_cbr", "", 4500, { "", "", -1 } },
-			{ "V_HarnessO_brn", "", 7500, { "", "", -1 } }
+			{ "UNS_VC_A1", "", 7500, { "", "", -1 } },
+			{ "UNS_VC_S2", "", 7500, { "", "", -1 } },
+			{ "UNS_VC_MG", "", 7500, { "", "", -1 } }
 		};
 
 		backpacks[] = {
 			{ "NONE", "Remove Backpack", 0, { "", "", -1 } },
-			{"B_AssaultPack_cbr", "", 2500, { "", "", -1 }},
+			{"CUP_B_AlicePack_Khaki", "", 2500, { "", "", -1 }},
 			{ "B_Kitbag_mcamo", "", 4500, { "", "", -1 } },
 			{ "B_TacticalPack_oli", "", 3500, { "", "", -1 } },
 			{ "B_FieldPack_ocamo", "", 3000, { "", "", -1 } },

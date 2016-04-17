@@ -19,7 +19,7 @@ switch(playerSide) do {
 		ctrlShow[2012,false];
 	};
 	
-	 ase east: {
+	case east: {
 		ctrlShow[2011,false];
 	};
 };

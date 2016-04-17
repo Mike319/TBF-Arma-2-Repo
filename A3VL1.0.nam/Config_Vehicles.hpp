@@ -33,14 +33,14 @@ class CarShops {
 			{ "C_Offroad_01_F", 10000, "" },
 			{ "I_Truck_02_medical_F", 25000, "" },
 			{ "O_Truck_03_medical_F", 45000, "" },
-			{ "B_Truck_01_medical_F", 60000, "" }
+			{ "CUP_B_M113_Med_USA", 60000, "" }
 		};
 	};
 
 	class med_air_hs {
 		side = "med";
 		vehicles[] = {
-			{ "B_Heli_Light_01_F", 50000, "mAir" },
+			{ "GR_UH1H_4", 50000, "mAir" },
 			{ "O_Heli_Light_02_unarmed_F", 75000, "mAir" }
 		};
 	};
@@ -48,14 +48,14 @@ class CarShops {
 	class civ_truck {
 		side = "civ";
 		vehicles[] = {
-			{ "C_Van_01_box_F", 60000, "truck" },
-			{ "I_Truck_02_transport_F", 75000, "truck" },
-			{ "I_Truck_02_covered_F", 100000, "truck" },
-			{ "B_Truck_01_transport_F", 275000, "truck" },
-			{ "O_Truck_03_transport_F", 200000, "truck" },
-			{ "O_Truck_03_covered_F", 250000, "truck" },
-			{ "B_Truck_01_box_F", 350000, "truck" },
-			{ "O_Truck_03_device_F", 450000, "truck" }
+			{ "C_Van_01_box_F", 60000, "trucking" },
+			{ "I_Truck_02_transport_F", 75000, "trucking" },
+			{ "I_Truck_02_covered_F", 100000, "trucking" },
+			{ "B_Truck_01_transport_F", 275000, "trucking" },
+			{ "O_Truck_03_transport_F", 200000, "trucking" },
+			{ "O_Truck_03_covered_F", 250000, "trucking" },
+			{ "B_Truck_01_box_F", 350000, "trucking" },
+			{ "O_Truck_03_device_F", 450000, "trucking" }
 		};
 	};
 
@@ -73,9 +73,9 @@ class CarShops {
 	class cop_car {
 		side = "cop";
 		vehicles[] = {
-			{ "C_Offroad_01_F", 5000, ""},
-			{ "C_SUV_01_F", 20000, "" },
-			{ "B_MRAP_01_F", 30000, "", { "life_coplevel", 3 } }
+			{ "uns_willys", 5000, ""},
+			{ "ACV_M35_Closed", 20000, "" },
+			{ "ACV_M113_BG", 30000, "", { "life_coplevel", 3 } }
 		};
 	};
 
@@ -90,8 +90,12 @@ class CarShops {
 	class cop_air {
 		side = "cop";
 		vehicles[] = {
-			{ "B_Heli_Light_01_F", 75000, "cAir" },
-			{ "B_Heli_Transport_01_F", 200000, "cAir", { "life_coplevel", 3 } }
+			{ "GR_UH1D_1", 15000, "cAir" },
+			{ "GR_UH1N_2", 17000, "cAir" },
+			{ "GR_UH1H_2", 15000, "cAir" },
+			{ "GR_UH1H_2", 15000, "cAir" },
+			{ "ACV_CH47", 15000, "cAir" },
+			{ "ACV_COBRA_GATHE", 200000, "cAir", { "life_coplevel", 3 } }
 		};
 	};
 
@@ -156,6 +160,77 @@ class CfgVehicles {
 		garageSell[] = { 0, 0, 5000, 0 };
 		chopShop = 3000;
 	};
+	
+	class GR_UH1D_1 : Default {
+		vItemSpace = 150;
+		storageFee[] = { 0, 0, 1500, 0 };
+		garageSell[] = { 0, 0, 5000, 0 };
+		chopShop = 3000;
+	};
+	
+	class GR_UH1H_4 : Default {
+		vItemSpace = 150;
+		storageFee[] = { 0, 0, 1500, 0 };
+		garageSell[] = { 0, 0, 5000, 0 };
+		chopShop = 3000;
+	};
+	
+	class uns_willys : Default {
+		vItemSpace = 150;
+		storageFee[] = { 0, 0, 1500, 0 };
+		garageSell[] = { 0, 0, 5000, 0 };
+		chopShop = 3000;
+	};
+	
+	class ACV_M113_BG : Default {
+		vItemSpace = 150;
+		storageFee[] = { 0, 0, 1500, 0 };
+		garageSell[] = { 0, 0, 5000, 0 };
+		chopShop = 3000;
+	};
+
+	class CUP_B_M113_Med_USA : Default {
+		vItemSpace = 150;
+		storageFee[] = { 0, 0, 1500, 0 };
+		garageSell[] = { 0, 0, 5000, 0 };
+		chopShop = 3000;
+	};
+	
+	class ACV_M35_Closed : Default {
+		vItemSpace = 150;
+		storageFee[] = { 0, 0, 1500, 0 };
+		garageSell[] = { 0, 0, 5000, 0 };
+		chopShop = 3000;
+	};
+	
+	class GR_UH1N_2 : Default {
+		vItemSpace = 150;
+		storageFee[] = { 0, 0, 1500, 0 };
+		garageSell[] = { 0, 0, 5000, 0 };
+		chopShop = 3000;
+	};
+	
+	class ACV_CH47 : Default {
+		vItemSpace = 150;
+		storageFee[] = { 0, 0, 1500, 0 };
+		garageSell[] = { 0, 0, 5000, 0 };
+		chopShop = 3000;
+	};
+	
+	class GR_UH1H_2 : Default {
+		vItemSpace = 150;
+		storageFee[] = { 0, 0, 1500, 0 };
+		garageSell[] = { 0, 0, 5000, 0 };
+		chopShop = 3000;
+	};
+	
+	class ACV_COBRA_GATHE : Default {
+		vItemSpace = 150;
+		storageFee[] = { 0, 0, 1500, 0 };
+		garageSell[] = { 0, 0, 5000, 0 };
+		chopShop = 3000;
+	};
+
 
 	class O_Truck_03_medical_F : Default {
 		vItemSpace = 200;

@@ -84,6 +84,12 @@ switch (_shop) do
 	{
 		ctrlSetText[2505,"Admin Shop"];
 	};
+	
+	case "adac":
+	{
+		ctrlSetText[2505,"NVA Weapon Shop"];
+		ctrlShow[2503,false];
+	};
 };
 
 ["guns"] call life_fnc_shops_changeMenu;
