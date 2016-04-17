@@ -227,7 +227,6 @@ class Licenses {
 	LICENSEMACRO(cement,"STR_License_Cement","cement",600,false,"civ")
 	LICENSEMACRO(mAir,"STR_License_Pilot","mAir",1000,false,"med")
 	LICENSEMACRO(home,"STR_License_Home","home",25000,false,"civ")
-	LICENSEMACRO(meth,"STR_License_Heroin","meth",3000,true,"civ")
 	LICENSEMACRO(opium,"STR_License_Opium","opium",3000,true,"civ")
 	LICENSEMACRO(methpill,"STR_License_Methpill","methpill",3000,true,"civ")
 	LICENSEMACRO(ketamine,"STR_License_Ketamine","ketamine",3000,true,"civ")

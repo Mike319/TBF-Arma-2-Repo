@@ -61,11 +61,24 @@ switch (_var) do
 	case "life_inv_defusekit": {(localize "STR_Item_DefuseKit")};
 	case "life_inv_storagesmall": {(localize "STR_Item_StorageBS")};
 	case "life_inv_storagebig": {(localize "STR_Item_StorageBL")};
+	case "life_inv_heroinu": {(localize "STR_Item_HeroinU")};
+	case "life_inv_heroinp": {(localize "STR_Item_HeroinP")};
+	case "life_inv_weedu": {(localize "STR_Item_WeedU")};
+	case "life_inv_weedp": {(localize "STR_Item_WeedP")};
+	case "life_inv_methu": {(localize "STR_Item_MethU")};
+	case "life_inv_methp": {(localize "STR_Item_methp")};
+	case "life_inv_opiumu": {(localize "STR_Item_opiumu")};
+	case "life_inv_opiump": {(localize "STR_Item_opiump")};
+	case "life_inv_methpill": {(localize "STR_Item_methpill")};
+	case "life_inv_ketamineu": {(localize "STR_Item_ketamineu")};
+	case "life_inv_ketaminep": {(localize "STR_Item_ketaminep")};
+	case "life_inv_ecstacyu": {(localize "STR_Item_ecstacyu")};
+	case "life_inv_ecstacyp": {(localize "STR_Item_ecstacyp")};
+
 	
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};
 	case "license_civ_air": {(localize "STR_License_Pilot")};
-	case "license_civ_heroin": {(localize "STR_License_Heroin")};
 	case "license_civ_oil": {(localize "STR_License_Oil")};
 	case "license_civ_dive": {(localize "STR_License_Diving")};
 	case "license_civ_boat": {(localize "STR_License_Boat")};
@@ -81,8 +94,14 @@ switch (_var) do
 	case "license_civ_sand": {(localize "STR_License_Sand")};
 	case "license_civ_salt": {(localize "STR_License_Salt")};
 	case "license_civ_coke": {(localize "STR_License_Cocaine")};
-	case "license_civ_marijuana": {(localize "STR_License_Marijuana")};
 	case "license_civ_cement": {(localize "STR_License_Cement")};
 	case "license_med_air": {(localize "STR_License_Pilot")};
 	case "license_civ_home": {(localize "STR_License_Home")};
+	case "license_civ_heroin": {(localize "STR_License_Heroin")};
+	case "license_civ_weed": {(localize "STR_License_Weed")};
+	case "license_civ_meth": {(localize "STR_License_Meth")};
+	case "license_civ_opium": {(localize "STR_License_Opium")};
+	case "license_civ_methpill": {(localize "STR_License_Methpill")};
+	case "license_civ_mketamine": {(localize "STR_License_Ketamine")};
+	case "license_civ_ecstacy": {(localize "STR_License_Ecstacy")};
 };

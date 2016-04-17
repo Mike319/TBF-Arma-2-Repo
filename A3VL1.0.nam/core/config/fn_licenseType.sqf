@@ -43,7 +43,7 @@ switch (_mode) do
 			case "opium": {_var = "license_civ_opium"};
 			case "methpill": {_var = "license_civ_methpill"};
 			case "ketamine": {_var = "license_civ_ketamine"};
-			case "ecstacy": {_var = "license_med_ecstacy"};
+			case "ecstacy": {_var = "license_civ_ecstacy"};
 			default {_var = ""};
 		};
 	};
@@ -79,7 +79,7 @@ switch (_mode) do
 			case "license_civ_opium": {_var = "opium"};
 			case "license_civ_methpill": {_var = "methpill"};
 			case "license_civ_ketamine": {_var = "ketamine"};
-			case "license_med_ecstacy": {_var = "ecstacy"};
+			case "license_civ_ecstacy": {_var = "ecstacy"};
 			default {_var = ""};
 		};
 	};

@@ -18,10 +18,6 @@ switch (_mode) do
 		{
 			case "oilu": {"life_inv_oilu"};
 			case "oilp": {"life_inv_oilp"};
-			case "heroinu": {"life_inv_heroinu"};
-			case "heroinp": {"life_inv_heroinp"};
-			case "cannabis": {"life_inv_cannabis"};
-			case "marijuana": {"life_inv_marijuana"};
 			case "apple": {"life_inv_apple"};
 			case "water": {"life_inv_water"};
 			case "rabbit": {"life_inv_rabbit"};
@@ -64,7 +60,20 @@ switch (_mode) do
 			case "boltcutter": {"life_inv_boltcutter"};
 			case "defusekit": {"life_inv_defusekit"};
 			case "storagesmall": {"life_inv_storagesmall"};
-			case "storagebig": {"life_inv_storagebig"};
+			case "storagebig": {"life_inv_storagebig"};	
+			case "heroinu": {"life_inv_heroinu"};
+			case "heroinp": {"life_inv_heroinp"};
+			case "weedu": {"life_inv_weedu"};
+			case "weedp": {"life_inv_weedp"};	
+			case "methu": {"life_inv_methu"};
+			case "methp": {"life_inv_methp"};
+			case "opiumu": {"life_inv_opiumu"};
+			case "opiump": {"life_inv_opiump"};
+			case "methpill": {"life_inv_methpill"};
+			case "ketamineu": {"life_inv_ketamineu"};
+			case "ketaminep": {"life_inv_ketaminep"};
+			case "ecstacyu": {"life_inv_ecstacyu"};
+			case "ecstacyp": {"life_inv_ecstacyp"};
 		};
 	};
 	
@@ -74,10 +83,6 @@ switch (_mode) do
 		{
 			case "life_inv_oilu": {"oilu"};
 			case "life_inv_oilp": {"oilp"};
-			case "life_inv_heroinu": {"heroinu"};
-			case "life_inv_heroinp": {"heroinp"};
-			case "life_inv_cannabis": {"cannabis"};
-			case "life_inv_marijuana": {"marijuana"};
 			case "life_inv_apple": {"apple"};
 			case "life_inv_water": {"water"};
 			case "life_inv_rabbit": {"rabbit"};
@@ -121,6 +126,19 @@ switch (_mode) do
 			case "life_inv_defusekit": {"defusekit"};
 			case "life_inv_storagesmall": {"storagesmall"};
 			case "life_inv_storagebig": {"storagebig"};
+			case "life_inv_heroinu": {"heroinu"};
+			case "life_inv_heroinp": {"heroinp"};
+			case "life_inv_weedu": {"weedu"};
+			case "life_inv_weedp": {"weedp"};
+			case "life_inv_methu": {"methu"};
+			case "life_inv_methp": {"methp"};
+			case "life_inv_opiumu": {"opiumu"};
+			case "life_inv_opiump": {"opiump"};
+			case "life_inv_methpill": {"methpill"};
+			case "life_inv_ketamineu": {"ketamineu"};
+			case "life_inv_ketaminep": {"ketaminep"};
+			case "life_inv_ecstacyu": {"ecstacyu"};
+			case "life_inv_ecstacyp": {"ecstacyp"};
 		};
 	};
 };
