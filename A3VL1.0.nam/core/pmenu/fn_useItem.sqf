@@ -28,6 +28,76 @@ switch (true) do {
 		};
 	};
 	
+	case (_item == "marijuana"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+
+
+			[] spawn life_fnc_useMarijuana;
+		};
+	};
+	case (_item == "methp"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+
+
+			[] spawn life_fnc_useMeth;
+		};
+	};
+	case (_item == "methpill"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+
+
+			[] spawn life_fnc_useMethPill;
+		};
+	};
+		case (_item == "heroinp"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+
+
+			[0,format["%1 injects some Heroin.",name player]] remoteExecCall ["life_fnc_broadcast", -2];
+			life_intox = life_intox + 0.10;
+			[] spawn fnc_intox;
+			[] spawn life_fnc_useHeroin;
+		};
+	};
+	
+		case (_item == "opiump"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+
+
+			[] spawn life_fnc_useOpium;
+		};
+	};
+			case (_item == "ketaminep"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+
+
+			[] spawn life_fnc_useKetamine;
+		};
+	};
+	
+	case (_item == "ecstacyp"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+
+
+			[] spawn life_fnc_useEcstacy;
+		};
+	};
+
+	
 	case (EQUAL(_item,"boltcutter")): {
 		[cursorTarget] spawn life_fnc_boltcutter;
 		closeDialog 0;

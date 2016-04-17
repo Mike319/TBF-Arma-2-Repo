@@ -112,7 +112,17 @@ class Life_Client_Core
 		class lockHouse {};
 		class garageRefund {};
 	};
-	
+	class Drugs
+	{
+		file = "core\drugs";
+		class useMarijuana {};
+		class useMeth {};
+		class useMethPill {};
+		class useOpium {};
+		class useHeroin {};
+		class useKetamine {};
+		class useEcstacy {};
+	};
 	class Config
 	{
 		file = "core\config";

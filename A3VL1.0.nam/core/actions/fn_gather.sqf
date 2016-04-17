@@ -8,7 +8,7 @@
 */
 if(isNil "life_action_gathering") then {life_action_gathering = false;};
 private["_gather","_itemWeight","_diff","_itemName","_resourceZones","_zone"];
-_resourceZones = ["apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2","peaches_3","peaches_4","heroin_1","cocaine_1","weed_1"];
+_resourceZones = ["apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2","peaches_3","peaches_4","heroin_1","weed_1","opium_1","meth_1","ketamine_1","ecstacy_1"];
 _zone = "";
 
 if(life_action_gathering) exitWith {}; //Action is in use, exit to prevent spamming.
@@ -24,9 +24,11 @@ if(EQUAL(_zone,"")) exitWith {life_action_gathering = false;};
 switch(true) do {
 	case (_zone in ["apple_1","apple_2","apple_3","apple_4"]): {_gather = ["apple",3];};
 	case (_zone in ["peaches_1","peaches_2","peaches_3","peaches_4"]): {_gather = ["peach",3];};
-	case (_zone in ["heroin_1"]): {_gather = ["heroin_unprocessed",1];};
-	case (_zone in ["cocaine_1"]): {_gather = ["cocaine_unprocessed",1];};
-	case (_zone in ["weed_1"]): {_gather = ["cannabis",1];};
+	case (_zone in ["heroin_1"]): {_gather = ["heroinu",1];};
+	case (_zone in ["opium_1"]): {_gather = ["opiumu",1];};
+	case (_zone in ["weed_1"]): {_gather = ["weedu",1];};
+	case (_zone in ["ketamine_1"]): {_gather = ["ketamineu",1];};
+	case (_zone in ["ecstacy_1"]): {_gather = ["ecstacyu",1];};
 	default {""};
 };
 //gather check??

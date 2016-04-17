@@ -33,7 +33,8 @@ life_vdFoot = viewDistance;
 life_vdCar = viewDistance;
 life_vdAir = viewDistance;
 tawvd_addon_disable = true;
-
+life_crazy = 0;
+life_bonging = false;
 //Uniform price (0),Hat Price (1),Glasses Price (2),Vest Price (3),Backpack Price (4)
 life_clothing_purchase = [-1,-1,-1,-1,-1];
 /*
@@ -55,6 +56,7 @@ life_use_atm = true;
 life_is_arrested = false;
 life_delivery_in_progress = false;
 life_thirst = 100;
+life_intox = 0.00;
 life_hunger = 100;
 CASH = 0;
 
@@ -63,24 +65,24 @@ life_vehicles = [];
 
 switch (playerSide) do {
 	case west: {
-		BANK = 7000; //Starting Bank Money
-		life_paycheck = 500; //Paycheck Amount
+		BANK = 15000; //Starting Bank Money
+		life_paycheck = 1000; //Paycheck Amount
 	};
 	
 	case civilian: {
-		BANK = 3000; //Starting Bank Money
-		life_paycheck = 350; //Paycheck Amount
+		BANK = 10000; //Starting Bank Money
+		life_paycheck = 500; //Paycheck Amount
 	};
 	
 	case independent: {
-		BANK = 6500;
-		life_paycheck = 450;
+		BANK = 10000;
+		life_paycheck = 1000;
 	};
 	
 	case east:
 	{
 		BANK = 7000; //Starting Bank Money
-		life_paycheck = 500; //Paycheck Amount
+		life_paycheck = 1000; //Paycheck Amount
 	};
 };
 

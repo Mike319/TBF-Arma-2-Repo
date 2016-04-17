@@ -16,13 +16,17 @@ if(isNull _vendor OR EQUAL(_type,"") OR (player distance _vendor > 10)) exitWith
 _itemInfo = switch (_type) do {
 	case "oil": {["oilu","oilp",1200,(localize "STR_Process_Oil")];};
 	case "diamond": {["diamond_uncut","diamond_cut",1350,(localize "STR_Process_Diamond")];};
-	case "heroin": {["heroin_unprocessed","heroin_processed",1750,(localize "STR_Process_Heroin")];};
+	case "heroin": {["heroinu","heroinp",500,(localize "STR_Process_Heroin")];};
 	case "copper": {["copper_unrefined","copper_refined",750,(localize "STR_Process_Copper")];};
 	case "iron": {["iron_unrefined","iron_refined",1120,(localize "STR_Process_Iron")];};
 	case "sand": {["sand","glass",650,(localize "STR_Process_Sand")];};
 	case "salt": {["salt_unrefined","salt_refined",450,(localize "STR_Process_Salt")];};
-	case "cocaine": {["cocaine_unprocessed","cocaine_processed",1500,(localize "STR_Process_Cocaine")];};
-	case "marijuana": {["cannabis","marijuana",500,(localize "STR_Process_Marijuana")];};
+	case "meth": {["methu","methp",500,(localize "STR_Process_Meth")];};
+	case "opium": {["opiumu","opiump",500,(localize "STR_Process_Opium")];};
+	case "methpill": {["methp","methpill",800,(localize "STR_Process_Methpill")];};
+	case "ketamine": {["ketamineu","ketaminep",500,(localize "STR_Process_Ketamine")];};
+	case "ecstacy": {["ecstacyu","ecstacyp",500,(localize "STR_Process_Ecstacy")];};
+	case "weed": {["weedu","weedp",500,(localize "STR_Process_Weed")];};
 	case "cement": {["rock","cement",350,(localize "STR_Process_Cement")];};
 	default {[];};
 };
@@ -36,7 +40,7 @@ _newItem = SEL(_itemInfo,1);
 _cost = SEL(_itemInfo,2);
 _upp = SEL(_itemInfo,3);
 
-if(_vendor in [mari_processor,coke_processor,heroin_processor]) then {
+if(_vendor in [weed_processor,meth_processor,opium_processor,methpill_processor,ketamine_processor,ecstacy_processor,heroin_processor]) then {
 	_hasLicense = true;
 } else {
 	_hasLicense = LICENSE_VALUE(_type,"civ");
