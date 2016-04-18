@@ -262,7 +262,7 @@ class VirtualShops {
 	
 	class drugdealer {
 		name = "STR_Shops_DrugDealer";
-		items[] = { "opiump", "heroinp", "weedp", "methp", "methpill", "ketaminep", "ecstacyp" },
+		items[] = { "opiump", "heroinp", "weedp", "methp", "methpill", "ketaminep", "ecstacyp" };
 	};
 
 	class oil {
