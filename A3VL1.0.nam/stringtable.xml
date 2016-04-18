@@ -2886,13 +2886,89 @@
 			<Italian>Eroina processata</Italian>
 			<Portuguese>Heroína Processada</Portuguese>
 		</Key>
-		<Key ID="STR_Item_Marijuana">
-			<Original>Marijuana</Original>
-			<German>Marihuana</German>
-			<French>Marijuana</French>
-			<Italian>Marijuana</Italian>
-			<Portuguese>Maconha</Portuguese>
+		
+		
+		
+		<Key ID="STR_Item_Weedu">
+			<Original>Weed Unprocessed</Original>
+			<German>Weed Unprocessed</German>
+			<French>Weed Unprocessed</French>
+			<Italian>Weed Unprocessed</Italian>
+			<Portuguese>Weed Unprocessed</Portuguese>
 		</Key>
+		<Key ID="STR_Item_Weedp">
+			<Original>Weed Processed</Original>
+			<German>Weed Processed</German>
+			<French>Weed Processed</French>
+			<Italian>Weed Processed</Italian>
+			<Portuguese>Weed Processed</Portuguese>
+		</Key>
+		<Key ID="STR_Item_Methu">
+			<Original>Meth Unprocessed</Original>
+			<German>Meth Unprocessed</German>
+			<French>Meth Unprocessed</French>
+			<Italian>Meth Unprocessed</Italian>
+			<Portuguese>Meth Unprocessed</Portuguese>
+		</Key>
+		<Key ID="STR_Item_Methp">
+			<Original>Meth Processed</Original>
+			<German>Meth Processed</German>
+			<French>Meth Processed</French>
+			<Italian>Meth Processed</Italian>
+			<Portuguese>Meth Processed</Portuguese>
+		</Key>
+		<Key ID="STR_Item_Methpill">
+			<Original>Meth Pill</Original>
+			<German>Meth Pill</German>
+			<French>Meth Pill</French>
+			<Italian>Meth Pill</Italian>
+			<Portuguese>Meth Pill</Portuguese>
+		</Key>
+		<Key ID="STR_Item_Opiumu">
+			<Original>Opium Unprocessed</Original>
+			<German>Opium Unprocessed</German>
+			<French>Opium Unprocessed</French>
+			<Italian>Opium Unprocessed</Italian>
+			<Portuguese>Opium Unprocessed</Portuguese>
+		</Key>
+		<Key ID="STR_Item_Opiump">
+			<Original>Opium Processed</Original>
+			<German>Opium Processed</German>
+			<French>Opium Processed</French>
+			<Italian>Opium processed</Italian>
+			<Portuguese>Opium Processed</Portuguese>
+		</Key>
+		<Key ID="STR_Item_Ecstacyu">
+			<Original>Ecstacy Unprocessed</Original>
+			<German>Ecstacy Unprocessed</German>
+			<French>Ecstacy Unprocessed</French>
+			<Italian>Ecstacy Unprocessed</Italian>
+			<Portuguese>Ecstacy Unprocessed</Portuguese>
+		</Key>
+		<Key ID="STR_Item_Ecstacyp">
+			<Original>Ecstacy Processed</Original>
+			<German>Ecstacy Processed</German>
+			<French>Ecstacy Processed</French>
+			<Italian>Ecstacy Processed</Italian>
+			<Portuguese>Ecstacy Processed</Portuguese>
+		</Key>
+		
+		<Key ID="STR_Item_Ketamineu">
+			<Original>Ketamine Unprocessed</Original>
+			<German>Ketamine Unprocessed</German>
+			<French>Ketamine Unprocessed</French>
+			<Italian>Ketamine Unprocessed</Italian>
+			<Portuguese>Ketamine Unprocessed</Portuguese>
+		</Key>
+		
+		<Key ID="STR_Item_Ketaminep">
+			<Original>Ketamine Processed</Original>
+			<German>Ketamine Processed</German>
+			<French>Ketamine Processed</French>
+			<Italian>Ketamine Processed</Italian>
+			<Portuguese>Ketamine Processed</Portuguese>
+		</Key>
+
 		<Key ID="STR_Item_Rabbit">
 			<Original>Rabbit Meat</Original>
 			<German>Kaninchenfleisch</German>
@@ -3296,10 +3372,10 @@
 		</Key>
 		<Key ID="STR_License_Heroin">
 			<Original>Heroin Training</Original>
-			<German>Heroinausbildung</German>
-			<French>Transformation du Pavot</French>
-			<Italian>Processo Eroina</Italian>
-			<Portuguese>Treinamento de Heroina</Portuguese>
+			<German>Heroin Training</German>
+			<French>Heroin Training</French>
+			<Italian>Heroin Training</Italian>
+			<Portuguese>Heroin Training</Portuguese>
 		</Key>
 		<Key ID="STR_License_Oil">
 			<Original>Oil Processing</Original>
@@ -3399,13 +3475,53 @@
 			<Italian>Processo Cocaina</Italian>
 			<Portuguese>Treinamento de Cocaina</Portuguese>
 		</Key>
-		<Key ID="STR_License_Marijuana">
+		<Key ID="STR_License_Weed">
 			<Original>Marijuana Training</Original>
-			<German>Marihuanaausbildung</German>
-			<French>Traitement du Cannabis</French>
-			<Italian>Processo Marijuana</Italian>
-			<Portuguese>Treinamento de Maconha</Portuguese>
+			<German>Marijuana Training</German>
+			<French>Marijuana Training</French>
+			<Italian>Marijuana Training</Italian>
+			<Portuguese>Marijuana Training</Portuguese>
 		</Key>
+		
+		
+		
+		<Key ID="STR_License_Meth">
+			<Original>Meth Training</Original>
+			<German>Meth Training</German>
+			<French>Meth Training</French>
+			<Italian>Meth Training</Italian>
+			<Portuguese>Meth Training</Portuguese>
+		</Key>
+		<Key ID="STR_License_Opium">
+			<Original>Opium Training</Original>
+			<German>Opium Training</German>
+			<French>Opium Training</French>
+			<Italian>Opium Training</Italian>
+			<Portuguese>Opium Training</Portuguese>
+		</Key>
+		<Key ID="STR_License_Methpill">
+			<Original>Meth Pill Training</Original>
+			<German>Meth Pill Training</German>
+			<French>Meth Pill Training</French>
+			<Italian>Meth Pill Training</Italian>
+			<Portuguese>Meth Pill Training</Portuguese>
+		</Key>
+		<Key ID="STR_License_Ecstacy">
+			<Original>Ecstacy Training</Original>
+			<German>Ecstacy Training</German>
+			<French>Ecstacy Training</French>
+			<Italian>Ecstacy Training</Italian>
+			<Portuguese>Ecstacy Training</Portuguese>
+		</Key>
+		<Key ID="STR_License_Ketamine">
+			<Original>Ketamine Training</Original>
+			<German>Ketamine Training</German>
+			<French>Ketamine Training</French>
+			<Italian>Ketamine Training</Italian>
+			<Portuguese>Ketamine Training</Portuguese>
+		</Key>
+		
+	
 		<Key ID="STR_License_Cement">
 			<Original>Cement Mixing License</Original>
 			<German>Zementmisch-Lizenz</German>
@@ -3739,13 +3855,54 @@
 			<Italian>Processando Cocaina</Italian>
 			<Portuguese>Processando Cocaina</Portuguese>
 		</Key>
-		<Key ID="STR_Process_Marijuana">
+		<Key ID="STR_Process_Weed">
 			<Original>Processing Marijuana</Original>
-			<German>Marihuana wird verarbeitet</German>
-			<French>Traitement de Marijuana</French>
-			<Italian>Processando Marijuana</Italian>
-			<Portuguese>Processando Erva</Portuguese>
+			<German>Processing Marijuana</German>
+			<French>Processing Marijuana</French>
+			<Italian>Processing Marijuana</Italian>
+			<Portuguese>Processing Marijuana</Portuguese>
 		</Key>
+		
+		
+		
+		<Key ID="STR_Process_Opium">
+			<Original>Processing Opium</Original>
+			<German>Processing Opium</German>
+			<French>Processing Opium</French>
+			<Italian>Processing Opium</Italian>
+			<Portuguese>Processing Opium</Portuguese>
+		</Key>
+		<Key ID="STR_Process_Meth">
+			<Original>Processing Meth</Original>
+			<German>Processing Meth</German>
+			<French>Processing Meth</French>
+			<Italian>Processing Meth</Italian>
+			<Portuguese>Processing Meth</Portuguese>
+		</Key>
+		<Key ID="STR_Process_Methpill">
+			<Original>Processing Methpill</Original>
+			<German>Processing Methpill</German>
+			<French>Processing Methpill</French>
+			<Italian>Processing Methpill</Italian>
+			<Portuguese>Processing Methpill</Portuguese>
+		</Key>
+		<Key ID="STR_Process_Ketamine">
+			<Original>Processing Ketamine</Original>
+			<German>Processing Ketamine</German>
+			<French>Processing Ketamine</French>
+			<Italian>Processing Ketamine</Italian>
+			<Portuguese>Processing Ketamine</Portuguese>
+		</Key>
+		<Key ID="STR_Process_Ecstacy">
+			<Original>Processing Ecstacy</Original>
+			<German>Processing Ecstacy</German>
+			<French>Processing Ecstacy</French>
+			<Italian>Processing Ecstacy</Italian>
+			<Portuguese>Processing Ecstacy</Portuguese>
+		</Key>
+		
+		
+		
 		<Key ID="STR_Process_Cement">
 			<Original>Mixing Cement</Original>
 			<German>Zement wird gemischt</German>
@@ -3799,18 +3956,48 @@
 		</Key>
 		<Key ID="STR_Gather_Heroin">
 			<Original>Gather Heroin</Original>
-			<German>Heroin sammeln</German>
-			<French>Récolter des graines de Pavot</French>
-			<Italian>Raccogli Eroina</Italian>
-			<Portuguese>Colher Heroina</Portuguese>
+			<German>Gather Heroin</German>
+			<French>Gather Heroin</French>
+			<Italian>Gather Heroin</Italian>
+			<Portuguese>Gather Heroin</Portuguese>
 		</Key>
-		<Key ID="STR_Gather_Cannabis">
-			<Original>Gather Cannabis</Original>
-			<German>Kannabis sammeln</German>
-			<French>Récolter du Cannabis</French>
-			<Italian>Raccogli Cannabis</Italian>
-			<Portuguese>Colher Erva</Portuguese>
+		<Key ID="STR_Gather_Weed">
+			<Original>Gather Marijuana</Original>
+			<German>Gather Marijuana</German>
+			<French>Gather Marijuana</French>
+			<Italian>Gather Marijuana</Italian>
+			<Portuguese>Gather Marijuana</Portuguese>
 		</Key>
+		<Key ID="STR_Gather_Meth">
+			<Original>Gather Pseudoephedrine</Original>
+			<German>Gather Pseudoephedrine</German>
+			<French>Gather Pseudoephedrine</French>
+			<Italian>Gather Pseudoephedrine</Italian>
+			<Portuguese>Gather Pseudoephedrine</Portuguese>
+		</Key>
+		<Key ID="STR_Gather_Opium">
+			<Original>Gather Opium</Original>
+			<German>Gather Opium</German>
+			<French>Gather Opium</French>
+			<Italian>Gather Opium</Italian>
+			<Portuguese>Gather Opium</Portuguese>
+		</Key>
+		<Key ID="STR_Gather_Ketamine">
+			<Original>Gather Ketamine</Original>
+			<German>Gather Ketamine</German>
+			<French>Gather Ketamine</French>
+			<Italian>Gather Ketamine</Italian>
+			<Portuguese>Gather Ketamine</Portuguese>
+		</Key>
+		<Key ID="STR_Gather_Ecstacy">
+			<Original>Gather Ecstacy</Original>
+			<German>Gather Ecstacy</German>
+			<French>Gather Ecstacy</French>
+			<Italian>Gather Ecstacy</Italian>
+			<Portuguese>Gather Ecstacy</Portuguese>
+		</Key>
+		
+		
 		<Key ID="STR_Gather_Cocaine">
 			<Original>Gather Cocaine</Original>
 			<German>Kokain sammeln</German>
