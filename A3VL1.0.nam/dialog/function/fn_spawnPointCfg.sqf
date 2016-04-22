@@ -18,7 +18,8 @@ switch (_side) do
 	{
 		_return = [
 			["cop_spawn_1","US Army Base","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["cop_spawn_5","5th SFG Outpost","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
+			["cop_spawn_5","5th SFG Outpost","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
+			["cop_spawn_2","Special Ops Base - DO NOT SPAWN","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 		];
 	};
 	
