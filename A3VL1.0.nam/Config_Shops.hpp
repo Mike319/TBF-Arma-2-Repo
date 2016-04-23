@@ -92,6 +92,7 @@ class WeaponShops {
         items[] = {
         	{ "RH_M16a1", "", 5000 },
 			{ "RH_30Rnd_556x45_M855A1", "", 300 },
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "Rubber Bullets", 300 },
 			{ "RH_M16A2gl", "", 5000 },
 			{ "smg_SA_m1a1_F", "", 5000 },
 			{ "20Rnd_SA_45ACP", "", 50 },
@@ -122,6 +123,97 @@ class WeaponShops {
 			{ "HAFM_LAW", "", 10000 },
 			{ "HAFM_M72_Rocket", "", 100 },
 			{ "cobra_m2_suppressor", "", 200 }
+        };
+    };
+	    class cop_covert {
+        name = "Special Ops Shop";
+        side = "cop";
+        license = "";
+        level = 6;
+        msg = "You must be a SOD Rank!";
+        items[] = {
+			{ "RH_M16a1", "", 1000 },
+			{ "RH_30Rnd_556x45_M855A1", "", 300 },
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "Rubber Bullets", 300 },
+			{ "RH_M16A2gl", "", 1000 },
+			{ "smg_SA_m1a1_F", "", 1000 },
+			{ "20Rnd_SA_45ACP", "", 50 },
+			{ "RH_30Rnd_556x45_M855A1", "", 300 },
+			{ "NAM_CAR15_CM", "", 1000 },
+			{ "30Rnd_556x45_Stanag", "", 300 },
+			{ "NAM_XM21", "", 2500 },
+			{ "20Rnd_762x51_Mag_T", "", 100 },
+			{ "NAM_R700", "", 2500 },
+			{ "R700_Magazine", "", 100 },
+			{ "NAM_M60A", "", 2500 },
+			{ "M60_Magazine", "", 100 },
+			{ "NAM_M60", "", 2500 },
+			{ "M60_Magazine", "", 100 },
+			{ "NAM_M63AC", "", 2500 },
+			{ "M63_Magazine", "", 100 },
+			{ "NAM_RPDS", "", 2500 },
+			{ "RPD_Magazine", "", 100 },
+			{ "HAFM_LAW", "", 2500 },
+			{ "HAFM_M72_Rocket", "", 100 },
+			{ "cobra_m2_suppressor", "", 200 },
+			{ "hlc_rifle_akm", "", 2500 },
+			{ "hlc_30Rnd_762x39_b_ak", "", 500 },
+			{ "smg_SA_9a91", "", 2500 },
+			{ "20Rnd_SA_9x39", "", 500 },
+			{ "prifle_SA_Mosin", "", 2500 },
+			{ "5Rnd_SA_762x54_Bullets", "", 500 },
+            { "NAM_SKS", "", 2500 },
+            { "SKS_Magazine", "", 500 },
+            { "hlc_rifle_ak47", "", 2500 },
+            { "hlc_30Rnd_762x39_b_ak", "", 500 },
+            { "optic_Holosight", "", 500 },
+            { "RH_ar10", "", 2500 },
+            { "RH_20Rnd_762x51_AR10", "", 775 },
+			{ "V_HarnessOGL_gry", "Explosive Jacket", 5000 },
+			{ "hlc_30Rnd_762x39_b_ak", "", 200 },
+			{ "hlc_rifle_RK62", "", 2500 },
+			{ "hlc_30Rnd_762x39_b_ak", "", 200 },
+			{ "muzzle_snds_L", "", 650 },
+			{ "FirstAidKit", "", 150 },
+			{ "Medikit", "", 100 },
+			//{ "NVGoggles", "", 200 },
+			{ "16Rnd_9x21_Mag", "", 50 },
+			{ "20Rnd_556x45_UW_mag", "", 125 }
+			
+		};
+    };
+			    class rebel {
+        name = "Mohammed's Jihadi Shop";
+        side = "civ";
+        license = "rebel";
+        level = -1;
+        msg = "";
+        items[] = {
+            { "hlc_rifle_akm", "", 25000 },
+			{ "hlc_30Rnd_762x39_b_ak", "", 500 },
+			{ "smg_SA_9a91", "", 25000 },
+			{ "20Rnd_SA_9x39", "", 500 },
+			{ "prifle_SA_Mosin", "", 35000 },
+			{ "5Rnd_SA_762x54_Bullets", "", 500 },
+            { "NAM_SKS", "", 30000 },
+            { "SKS_Magazine", "", 500 },
+            { "hlc_rifle_ak47", "", 20000 },
+            { "hlc_30Rnd_762x39_b_ak", "", 500 },
+            { "optic_Holosight", "", 3600 },
+            { "RH_ar10", "", 50000 },
+            { "RH_20Rnd_762x51_AR10", "", 775 },
+			{ "V_HarnessOGL_gry", "Explosive Jacket", 550000 },
+			{ "hlc_30Rnd_762x39_b_ak", "", 200 },
+			{ "hlc_rifle_RK62", "", 30000 },
+			{ "hlc_30Rnd_762x39_b_ak", "", 200 },
+			{ "muzzle_snds_L", "", 650 },
+			{ "FirstAidKit", "", 150 },
+			{ "Medikit", "", 1000 },
+			//{ "NVGoggles", "", 2000 },
+			{ "16Rnd_9x21_Mag", "", 50 },
+			{ "20Rnd_556x45_UW_mag", "", 125 }
+        };
+    };
         };
     };
     //Medic Shops
@@ -158,7 +250,7 @@ class WeaponShops {
 			{ "muzzle_snds_L", "", 650 },
 			{ "FirstAidKit", "", 150 },
 			{ "Medikit", "", 1000 },
-			{ "NVGoggles", "", 2000 },
+			//{ "NVGoggles", "", 2000 },
 			{ "16Rnd_9x21_Mag", "", 50 },
 			{ "20Rnd_556x45_UW_mag", "", 125 }
         };
