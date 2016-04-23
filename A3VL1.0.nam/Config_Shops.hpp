@@ -34,7 +34,8 @@ class WeaponShops {
             { "hlc_30Rnd_762x39_b_ak", "", 500 },
             { "optic_Holosight", "", 3600 },
             { "RH_ar10", "", 50000 },
-            { "RH_20Rnd_762x51_AR10", "", 775 }
+            { "RH_20Rnd_762x51_AR10", "", 775 },
+			{ "V_HarnessOGL_gry", "Explosive Jacket", 550000 }
         };
     };
     class gang {
