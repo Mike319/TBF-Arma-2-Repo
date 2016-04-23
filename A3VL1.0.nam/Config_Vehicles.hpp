@@ -12,6 +12,11 @@ class CarShops {
 			{ "C_Hatchback_01_F", 9500, "driver" }, 
 			{ "C_Offroad_01_F", 12500, "driver" },
 			{ "C_SUV_01_F", 30000, "driver" },
+			{ "BAF_Offroad_D", 30000, "driver" },
+			{ "BAF_Offroad_W", 30000, "driver" },
+			{ "LandRover_CZ_EP1", 30000, "driver" },
+			{ "LandRover_ACR", 30000, "driver" },
+			{ "LandRover_TK_CIV_EP1", 30000, "driver" },
 			{ "C_Hatchback_01_sport_F", 40000, "driver" },
 			{ "C_Van_01_transport_F", 45000, "driver" }
 		};
@@ -83,7 +88,7 @@ class CarShops {
 		side = "civ";
 		vehicles[] = {
 			{ "B_Heli_Light_01_F", 253000, "pilot" },
-			{ "O_Heli_Light_02_unarmed_F", 750000, "pilot" }
+			{ "GR_Bell412_3", 750000, "pilot" }
 		};
 	};
 
@@ -155,6 +160,13 @@ class CfgVehicles {
 	};
 
 	class I_Truck_02_medical_F : Default {
+		vItemSpace = 150;
+		storageFee[] = { 0, 0, 1500, 0 };
+		garageSell[] = { 0, 0, 5000, 0 };
+		chopShop = 3000;
+	};
+	
+	class GR_Bell412_3 : Default {
 		vItemSpace = 150;
 		storageFee[] = { 0, 0, 1500, 0 };
 		garageSell[] = { 0, 0, 5000, 0 };
@@ -475,6 +487,20 @@ class CfgVehicles {
 	class C_Kart_01_Fuel_F : C_Kart_01_Blu_F {}; //Inherits everything from the above class
 	class C_Kart_01_Red_F : C_Kart_01_Blu_F {}; //Inherits everything from the above class
 	class C_Kart_01_Vrana_F : C_Kart_01_Blu_F {}; //Inherits everything from the above class
+	
+	class BAF_Offroad_W {
+		vItemSpace = 20;
+		storageFee[] = { 1500, 0, 0, 0 };
+		garageSell[] = { 3500, 0, 0, 0 };
+		inusrance = 1650;
+		chopShop = 3500;
+		textures[] = {};
+	};
+
+	class BAF_Offroad_D : BAF_Offroad_W {}; //Inherits everything from the above class
+	class LandRover_CZ_EP1 : BAF_Offroad_W {}; //Inherits everything from the above class
+	class LandRover_ACR : BAF_Offroad_W {}; //Inherits everything from the above class
+	class LandRover_TK_CIV_EP1 : BAF_Offroad_W {}; //Inherits everything from the above class
 
 	class C_Hatchback_01_sport_F {
         vItemSpace = 45;

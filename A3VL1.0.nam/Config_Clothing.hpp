@@ -29,6 +29,13 @@ class Clothing {
 			{ "U_C_HunterBody_grn", "The Hunters Look", 1500, { "", "", -1 } },
 			{ "U_C_WorkerCoveralls", "Mechanic Coveralls", 2500, { "", "", -1 } },
 			{ "U_OrestesBody", "Surfing On Land", 1100, { "", "", -1 } },
+			{ "SP_0000_Standard_Coverall_Red", "", 135, { "", "", -1 } },
+			{ "SP_0000_Standard_PulloverUniform_BlueFrost", "", 2500, { "", "", -1 } },
+			{ "SP_0000_Standard_PulloverUniform_Grey", "", 2500, { "", "", -1 } },
+			{ "SP_0000_Standard_PulloverUniform_NodUrban", "", 2500, { "", "", -1 } },
+			{ "AFG_1990DuckHunter_TacticalUniform_SS", "", 2500, { "", "", -1 } },
+			{ "AFG_1996Leaf_PulloverUniform", "", 2500, { "", "", -1 } },
+			{ "SP_0000_Standard_Underwear_Pink", "", 135, { "", "", -1 } },
 			{ "U_NikosAgedBody", "Casual Wears", 5000, { "", "", -1 } }
 		};
 
@@ -43,6 +50,13 @@ class Clothing {
 			{ "H_Bandanna_sgg", "Sage Bandanna", 160, { "", "", -1 } },
 			{ "H_StrawHat", "Straw Fedora", 225, { "", "", -1 } },
 			{ "H_BandMask_blk", "Hat & Bandanna", 300, { "", "", -1 } },
+			{ "H_Booniehat_tan", "", 425, { "", "", -1 } },
+			{ "SP_Hood_Black", "", 425, { "", "", -1 } },
+			{ "SP_Hood_Green", "", 425, { "", "", -1 } },
+			{ "SP_Hood_Tan", "", 425, { "", "", -1 } },
+			{ "SP_TSH04Helmet_Black", "", 425, { "", "", -1 } },
+			{ "H_Booniehat_tan", "", 425, { "", "", -1 } },
+			{ "H_Booniehat_tan", "", 425, { "", "", -1 } },
 			{ "H_Booniehat_tan", "", 425, { "", "", -1 } },
 			{ "H_Hat_blue", "", 310, { "", "", -1 } },
 			{ "H_Hat_brown", "", 276, { "", "", -1 } },
@@ -70,12 +84,14 @@ class Clothing {
 			{ "G_Lady_Mirror", "", 150, { "", "", -1 } },
 			{ "G_Lady_Dark", "", 150, { "", "", -1 } },
 			{ "G_Lady_Blue", "", 150, { "", "", -1 } },
-			{ "G_Lowprofile", "", 30, { "", "", -1 } },
-			{ "G_Combat", "", 55, { "", "", -1 } }
+			{ "SP_Shades_Black", "", 30, { "", "", -1 } },
+			{ "SP_Kneepads_Black2", "", 55, { "", "", -1 } }
 		};
 
 		vests[] = {
-			{ "NONE", "Remove Vest", 0, { "", "", -1 } }
+			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
+			{ "SP_JackEllis1_Blue", "", 25000, { "", "", -1 } },
+			{ "SP_JackEllis1_White", "", 25000, { "", "", -1 } }
 		};
 
 		backpacks[] = {
